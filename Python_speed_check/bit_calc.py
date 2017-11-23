@@ -69,6 +69,6 @@ def bit_mod(max_num):
 	t1 = time.time()
 	for i in range(1,max_num):
 		if sumation&1==0:
-			temp = sumation >> 2
+			temp = sumation +1
 	print("mod_bit:"+str(time.time()-t1))
 
